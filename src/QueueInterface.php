@@ -22,7 +22,7 @@ interface QueueInterface
     public function prepend(callable $task);
 
     /**
-     * Set the target. THe target is what $this will resolve to inside a callback
+     * Set the target. The target is what $this will resolve to inside a callback
      * 
      * @param object $target
      * @return self
